@@ -1,0 +1,27 @@
+{
+  "id": "ch5_vfx_gentle_wind",
+  "name": "Efek Angin Ringan (Vertex Sway)",
+  "category": "Environmental_Details",
+  "scenes": [
+    "scene1",
+    "scene4",
+    "scene5"
+  ],
+  "status": "READY",
+  "compatibility": "Three.js r128 + ch4_shaders_anim.js",
+  "config": {
+    "lightPreset": "scene4_quiet",
+    "windDir": [
+      0.85,
+      0,
+      0.35
+    ],
+    "amplitude": 0.045,
+    "frequency": 1.8,
+    "targets": [
+      "Curtain",
+      "Ribbon",
+      "HairBack"
+    ]
+  }
+}

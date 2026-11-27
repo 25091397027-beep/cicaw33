@@ -1,0 +1,21 @@
+{
+  "id": "ch5_vfx_afternoon_sunlight",
+  "name": "Cahaya Matahari Sore",
+  "category": "Environmental_Details",
+  "scenes": [
+    "scene4",
+    "scene5"
+  ],
+  "status": "READY",
+  "compatibility": "Three.js r128 + ch4_shaders_anim.js",
+  "config": {
+    "lightPreset": "scene4_quiet",
+    "directionalColor": "#ffb878",
+    "intensity": 1.4,
+    "elevationDeg": 14,
+    "hemiSky": "#f8d3b0",
+    "hemiGround": "#4b3935",
+    "fogColor": "#3a2c38",
+    "fogDensity": 0.015
+  }
+}

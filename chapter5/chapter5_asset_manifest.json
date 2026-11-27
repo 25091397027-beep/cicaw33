@@ -1,0 +1,2063 @@
+{
+  "project": "A Story Beneath the Rain",
+  "chapter": 5,
+  "chapterTitle": "Chapter 5 — The Things We Don't Say",
+  "engineTarget": "Three.js r128 (Kompatibel cicaww33-pwa-v12-polish.zip)",
+  "generatedAt": "2026-11-27T07:27:48.634Z",
+  "summary": {
+    "totalAssets": 51,
+    "readyCount": 39,
+    "pendingCount": 12,
+    "byCategory": {
+      "Characters": 12,
+      "Environments": 9,
+      "Props": 20,
+      "Environmental_Details": 10
+    }
+  },
+  "continuityReferences": {
+    "rizka": "assets/characters/rizka/rizka_builder.js",
+    "kael": "assets/characters/kael/kael_builder.js",
+    "nadine": "assets/characters/nadine/nadine_builder.js",
+    "characterCore": "assets/characters/ch4_character_core.js",
+    "shadersAnim": "assets/animations/ch4_shaders_anim.js",
+    "storyController": "assets/story/ch4_unified_controller.js"
+  },
+  "optimizationTiers": {
+    "low": {
+      "maxDpr": 1,
+      "shadows": false,
+      "textureScale": "1K",
+      "particlesRatio": 0.35
+    },
+    "medium": {
+      "maxDpr": 1.25,
+      "shadows": true,
+      "shadowMap": 1024,
+      "textureScale": "1K-2K",
+      "particlesRatio": 0.65
+    },
+    "high": {
+      "maxDpr": 1.5,
+      "shadows": true,
+      "shadowMap": 2048,
+      "textureScale": "2K",
+      "particlesRatio": 1
+    },
+    "ultra": {
+      "maxDpr": 2,
+      "shadows": true,
+      "shadowMap": 2048,
+      "textureScale": "2K-4K",
+      "particlesRatio": 1
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Morning Feels Different",
+      "location": "Koridor Apartemen (Unit 302 & 301) & Halaman Apartemen Pagi",
+      "lightPreset": "scene1_morning",
+      "assetIds": [
+        "ch5_rizka_school_uniform",
+        "ch5_rizka_expressions_pack",
+        "ch5_rizka_animations_pack",
+        "ch5_kael_school_uniform",
+        "ch5_kael_expressions_pack",
+        "ch5_kael_animations_pack",
+        "ch5_env_apartment_corridor",
+        "ch5_env_apartment_courtyard_morning",
+        "ch5_prop_school_bag",
+        "ch5_prop_notebook",
+        "ch5_prop_smartphone",
+        "ch5_vfx_morning_sunlight",
+        "ch5_vfx_window_light_rays",
+        "ch5_vfx_tree_shadows",
+        "ch5_vfx_gentle_wind",
+        "ch5_vfx_glass_reflection"
+      ]
+    },
+    {
+      "id": "scene2",
+      "title": "A Day Out of Routine",
+      "location": "Halaman Sekolah, Koridor Sekolah, Area Loker & Ruang Persiapan",
+      "lightPreset": "scene2_daylight",
+      "assetIds": [
+        "ch5_rizka_school_uniform",
+        "ch5_rizka_expressions_pack",
+        "ch5_rizka_animations_pack",
+        "ch5_kael_school_uniform",
+        "ch5_kael_animations_pack",
+        "ch5_nadine_school_uniform",
+        "ch5_bu_mira_teacher",
+        "ch5_npc_student_f_01",
+        "ch5_npc_student_f_02",
+        "ch5_npc_student_m_01",
+        "ch5_npc_student_m_02",
+        "ch5_env_school_corridor",
+        "ch5_env_school_locker_area",
+        "ch5_env_event_prep_room",
+        "ch5_prop_school_bag",
+        "ch5_prop_notebook",
+        "ch5_prop_school_locker",
+        "ch5_prop_event_poster",
+        "ch5_prop_bulletin_board",
+        "ch5_prop_supply_box",
+        "ch5_prop_scissors",
+        "ch5_prop_tape_roll",
+        "ch5_prop_marker_set",
+        "ch5_prop_cardboard_box",
+        "ch5_prop_courtyard_bench",
+        "ch5_vfx_window_light_rays",
+        "ch5_vfx_tree_shadows",
+        "ch5_vfx_moving_leaves",
+        "ch5_vfx_glass_reflection"
+      ]
+    },
+    {
+      "id": "scene3",
+      "title": "Not Everything Goes as Planned",
+      "location": "Aula Sekolah & Ruang Persiapan Acara",
+      "lightPreset": "scene3_aula",
+      "assetIds": [
+        "ch5_rizka_school_uniform",
+        "ch5_rizka_expressions_pack",
+        "ch5_rizka_animations_pack",
+        "ch5_kael_school_uniform",
+        "ch5_kael_expressions_pack",
+        "ch5_kael_animations_pack",
+        "ch5_nadine_school_uniform",
+        "ch5_bu_mira_teacher",
+        "ch5_npc_student_f_01",
+        "ch5_npc_student_f_02",
+        "ch5_npc_student_m_01",
+        "ch5_npc_student_m_02",
+        "ch5_env_school_aula",
+        "ch5_env_event_prep_room",
+        "ch5_prop_event_poster",
+        "ch5_prop_supply_box",
+        "ch5_prop_scissors",
+        "ch5_prop_tape_roll",
+        "ch5_prop_marker_set",
+        "ch5_prop_decor_paper",
+        "ch5_prop_decor_ribbon",
+        "ch5_prop_decor_cloth",
+        "ch5_prop_aula_table_chair",
+        "ch5_prop_decor_string_lights",
+        "ch5_prop_cardboard_box",
+        "ch5_prop_decor_blueprint_clipboard",
+        "ch5_vfx_aula_lighting",
+        "ch5_vfx_fine_dust_particles"
+      ]
+    },
+    {
+      "id": "scene4",
+      "title": "A Little Space",
+      "location": "Ruang Kelas Kosong (Sore Tenang)",
+      "lightPreset": "scene4_quiet",
+      "assetIds": [
+        "ch5_rizka_school_uniform",
+        "ch5_rizka_expressions_pack",
+        "ch5_rizka_animations_pack",
+        "ch5_kael_school_uniform",
+        "ch5_kael_expressions_pack",
+        "ch5_kael_animations_pack",
+        "ch5_nadine_school_uniform",
+        "ch5_env_empty_classroom",
+        "ch5_prop_school_bag",
+        "ch5_prop_notebook",
+        "ch5_prop_smartphone",
+        "ch5_prop_supply_box",
+        "ch5_prop_scissors",
+        "ch5_prop_tape_roll",
+        "ch5_prop_marker_set",
+        "ch5_prop_decor_paper",
+        "ch5_prop_cardboard_box",
+        "ch5_prop_bottled_drink",
+        "ch5_vfx_afternoon_sunlight",
+        "ch5_vfx_window_light_rays",
+        "ch5_vfx_fine_dust_particles",
+        "ch5_vfx_gentle_wind",
+        "ch5_vfx_glass_reflection"
+      ]
+    },
+    {
+      "id": "scene5",
+      "title": "After the Noise",
+      "location": "Halaman Sekolah Menjelang Malam & Jalan Pulang",
+      "lightPreset": "scene5_evening",
+      "assetIds": [
+        "ch5_rizka_school_uniform",
+        "ch5_rizka_expressions_pack",
+        "ch5_rizka_animations_pack",
+        "ch5_kael_school_uniform",
+        "ch5_kael_expressions_pack",
+        "ch5_kael_animations_pack",
+        "ch5_env_school_courtyard_evening",
+        "ch5_env_walk_home_street",
+        "ch5_prop_school_bag",
+        "ch5_prop_smartphone",
+        "ch5_prop_bottled_drink",
+        "ch5_prop_courtyard_bench",
+        "ch5_prop_street_lamp",
+        "ch5_vfx_afternoon_sunlight",
+        "ch5_vfx_tree_shadows",
+        "ch5_vfx_gentle_wind",
+        "ch5_vfx_moving_leaves",
+        "ch5_vfx_night_ambient_lights"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "ch5_rizka_school_uniform",
+      "name": "Rizka — Seragam Sekolah (Normal)",
+      "fileName": "ch5_rizka_school_uniform.glb",
+      "path": "./assets/chapter5/characters/ch5_rizka_school_uniform.glb",
+      "category": "Characters",
+      "format": ".glb",
+      "status": "PENDING",
+      "scenes": [
+        "scene1",
+        "scene2",
+        "scene3",
+        "scene4",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 0.46,
+        "h": 1.61,
+        "d": 0.34
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Face 4K (4096) / Uniform 2K (2048)",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO",
+        "Subsurface"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Terkunci dari rizka_builder.js Ch 4 (1.61m, #F7DDD0, #3B2A26, #C98E5B, pita #9BBCE0)",
+      "charConfig": {
+        "who": "rizka",
+        "height": 1.61,
+        "defaultExpr": "normal",
+        "defaultAnim": "idle",
+        "expressions": [
+          "normal",
+          "happy",
+          "awkward",
+          "tired",
+          "annoyed",
+          "laugh"
+        ],
+        "anims": [
+          "idle",
+          "walk",
+          "pickup",
+          "talk"
+        ]
+      },
+      "vfxConfig": null,
+      "fallbackModule": "./assets/chapter5/characters/ch5_characters.js"
+    },
+    {
+      "id": "ch5_rizka_expressions_pack",
+      "name": "Rizka — Paket 5 Ekspresi Ch 5",
+      "fileName": "ch5_rizka_expressions_pack.glb",
+      "path": "./assets/chapter5/characters/ch5_rizka_expressions_pack.glb",
+      "category": "Characters",
+      "format": ".glb",
+      "status": "PENDING",
+      "scenes": [
+        "scene1",
+        "scene2",
+        "scene3",
+        "scene4",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 0.46,
+        "h": 1.61,
+        "d": 0.34
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Face 4K (4096) + Blendshape Targets",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "BlushMask"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Ekspansi morph targets wajah Rizka untuk adegan canggung, lelah, kesal ringan, senang & tertawa",
+      "charConfig": {
+        "who": "rizka",
+        "height": 1.61,
+        "defaultExpr": "awkward",
+        "defaultAnim": "idle",
+        "expressions": [
+          "normal",
+          "happy",
+          "awkward",
+          "tired",
+          "annoyed",
+          "laugh"
+        ],
+        "anims": [
+          "idle",
+          "talk"
+        ]
+      },
+      "vfxConfig": null,
+      "fallbackModule": "./assets/chapter5/characters/ch5_characters.js"
+    },
+    {
+      "id": "ch5_rizka_animations_pack",
+      "name": "Rizka — Paket Animasi (Walk, Idle, Pickup, Talk)",
+      "fileName": "ch5_rizka_animations_pack.glb",
+      "path": "./assets/chapter5/characters/ch5_rizka_animations_pack.glb",
+      "category": "Characters",
+      "format": ".glb",
+      "status": "PENDING",
+      "scenes": [
+        "scene1",
+        "scene2",
+        "scene3",
+        "scene4",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 0.46,
+        "h": 1.61,
+        "d": 0.34
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Skeletal Keyframe Clips (30fps)",
+      "pbrMaps": [
+        "Quaternion Tracks",
+        "Hair Spring Metadata"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Kompatibel dengan ch4_character_core.js & Three.js AnimationMixer",
+      "charConfig": {
+        "who": "rizka",
+        "height": 1.61,
+        "defaultExpr": "happy",
+        "defaultAnim": "walk",
+        "expressions": [
+          "normal",
+          "happy",
+          "awkward",
+          "tired",
+          "annoyed",
+          "laugh"
+        ],
+        "anims": [
+          "idle",
+          "walk",
+          "pickup",
+          "talk"
+        ]
+      },
+      "vfxConfig": null,
+      "fallbackModule": "./assets/chapter5/characters/ch5_characters.js"
+    },
+    {
+      "id": "ch5_kael_school_uniform",
+      "name": "Kael — Seragam Sekolah (Konsisten Ch 4)",
+      "fileName": "ch5_kael_school_uniform.glb",
+      "path": "./assets/chapter5/characters/ch5_kael_school_uniform.glb",
+      "category": "Characters",
+      "format": ".glb",
+      "status": "PENDING",
+      "scenes": [
+        "scene1",
+        "scene2",
+        "scene3",
+        "scene4",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 0.52,
+        "h": 1.77,
+        "d": 0.36
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Face 4K (4096) / Uniform 2K (2048)",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Terkunci dari kael_builder.js Ch 4 (1.77m, #EED0BE, rambut hitam #1D2028, mata #6A7F99)",
+      "charConfig": {
+        "who": "kael",
+        "height": 1.77,
+        "defaultExpr": "relaxed",
+        "defaultAnim": "idle",
+        "expressions": [
+          "relaxed",
+          "gentle_smile",
+          "confused",
+          "serious",
+          "laugh"
+        ],
+        "anims": [
+          "idle",
+          "walk",
+          "talk",
+          "assist"
+        ]
+      },
+      "vfxConfig": null,
+      "fallbackModule": "./assets/chapter5/characters/ch5_characters.js"
+    },
+    {
+      "id": "ch5_kael_expressions_pack",
+      "name": "Kael — Paket 5 Ekspresi Ch 5",
+      "fileName": "ch5_kael_expressions_pack.glb",
+      "path": "./assets/chapter5/characters/ch5_kael_expressions_pack.glb",
+      "category": "Characters",
+      "format": ".glb",
+      "status": "PENDING",
+      "scenes": [
+        "scene1",
+        "scene3",
+        "scene4",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 0.52,
+        "h": 1.77,
+        "d": 0.36
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Face 4K (4096) + Blendshape Targets",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Ekspansi ekspresi halus Kael sesuai dinamika Scene 1–5",
+      "charConfig": {
+        "who": "kael",
+        "height": 1.77,
+        "defaultExpr": "gentle_smile",
+        "defaultAnim": "idle",
+        "expressions": [
+          "relaxed",
+          "gentle_smile",
+          "confused",
+          "serious",
+          "laugh"
+        ],
+        "anims": [
+          "idle",
+          "talk"
+        ]
+      },
+      "vfxConfig": null,
+      "fallbackModule": "./assets/chapter5/characters/ch5_characters.js"
+    },
+    {
+      "id": "ch5_kael_animations_pack",
+      "name": "Kael — Paket Animasi (Walk, Idle, Talk, Assist)",
+      "fileName": "ch5_kael_animations_pack.glb",
+      "path": "./assets/chapter5/characters/ch5_kael_animations_pack.glb",
+      "category": "Characters",
+      "format": ".glb",
+      "status": "PENDING",
+      "scenes": [
+        "scene1",
+        "scene2",
+        "scene3",
+        "scene4",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 0.52,
+        "h": 1.77,
+        "d": 0.36
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Skeletal Keyframe Clips (30fps)",
+      "pbrMaps": [
+        "Quaternion Tracks"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Kompatibel dengan ch4_character_core.js & AnimationMixer",
+      "charConfig": {
+        "who": "kael",
+        "height": 1.77,
+        "defaultExpr": "gentle_smile",
+        "defaultAnim": "assist",
+        "expressions": [
+          "relaxed",
+          "gentle_smile",
+          "confused",
+          "serious",
+          "laugh"
+        ],
+        "anims": [
+          "idle",
+          "walk",
+          "talk",
+          "assist"
+        ]
+      },
+      "vfxConfig": null,
+      "fallbackModule": "./assets/chapter5/characters/ch5_characters.js"
+    },
+    {
+      "id": "ch5_nadine_school_uniform",
+      "name": "Nadine — Seragam, Ekspresi & Animasi (Ch 4 Continuity)",
+      "fileName": "ch5_nadine_school_uniform.glb",
+      "path": "./assets/chapter5/characters/ch5_nadine_school_uniform.glb",
+      "category": "Characters",
+      "format": ".glb",
+      "status": "PENDING",
+      "scenes": [
+        "scene2",
+        "scene3",
+        "scene4"
+      ],
+      "dimensions": {
+        "w": 0.45,
+        "h": 1.58,
+        "d": 0.33
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2K (2048x2048) PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Konsisten dengan nadine_builder.js Ch 4 (1.58m, rambut bob cokelat madu, vest krem)",
+      "charConfig": {
+        "who": "nadine",
+        "height": 1.58,
+        "defaultExpr": "happy",
+        "defaultAnim": "talk",
+        "expressions": [
+          "normal",
+          "happy",
+          "awkward"
+        ],
+        "anims": [
+          "idle",
+          "walk",
+          "talk"
+        ]
+      },
+      "vfxConfig": null,
+      "fallbackModule": "./assets/chapter5/characters/ch5_characters.js"
+    },
+    {
+      "id": "ch5_bu_mira_teacher",
+      "name": "Bu Mira — Guru Pembina Acara Sekolah",
+      "fileName": "ch5_bu_mira_teacher.glb",
+      "path": "./assets/chapter5/characters/ch5_bu_mira_teacher.glb",
+      "category": "Characters",
+      "format": ".glb",
+      "status": "PENDING",
+      "scenes": [
+        "scene2",
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 0.47,
+        "h": 1.65,
+        "d": 0.34
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2K (2048x2048) PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Karakter guru khusus Scene 2 & Scene 3 (persiapan acara aula)",
+      "charConfig": {
+        "who": "bu_mira",
+        "height": 1.65,
+        "defaultExpr": "normal",
+        "defaultAnim": "talk",
+        "expressions": [
+          "normal",
+          "happy",
+          "serious"
+        ],
+        "anims": [
+          "idle",
+          "talk"
+        ]
+      },
+      "vfxConfig": null,
+      "fallbackModule": "./assets/chapter5/characters/ch5_characters.js"
+    },
+    {
+      "id": "ch5_npc_student_f_01",
+      "name": "NPC Siswi Panitia Acara #1",
+      "fileName": "ch5_npc_student_f_01.glb",
+      "path": "./assets/chapter5/characters/ch5_npc_student_f_01.glb",
+      "category": "Characters",
+      "format": ".glb",
+      "status": "PENDING",
+      "scenes": [
+        "scene2",
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 0.48,
+        "h": 1.57,
+        "d": 0.34
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2K Shared Atlas (2048)",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Variasi NPC non-dominan, budget rendah (12k tris) untuk performa Android",
+      "charConfig": {
+        "who": "npc_f1",
+        "height": 1.57,
+        "defaultExpr": "normal",
+        "defaultAnim": "idle",
+        "expressions": [
+          "normal",
+          "happy"
+        ],
+        "anims": [
+          "idle",
+          "walk",
+          "talk"
+        ]
+      },
+      "vfxConfig": null,
+      "fallbackModule": "./assets/chapter5/characters/ch5_characters.js"
+    },
+    {
+      "id": "ch5_npc_student_f_02",
+      "name": "NPC Siswi Tambahan #2",
+      "fileName": "ch5_npc_student_f_02.glb",
+      "path": "./assets/chapter5/characters/ch5_npc_student_f_02.glb",
+      "category": "Characters",
+      "format": ".glb",
+      "status": "PENDING",
+      "scenes": [
+        "scene2",
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 0.48,
+        "h": 1.6,
+        "d": 0.34
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2K Shared Atlas (2048)",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Variasi NPC non-dominan, budget rendah (12k tris) untuk performa Android",
+      "charConfig": {
+        "who": "npc_f2",
+        "height": 1.6,
+        "defaultExpr": "normal",
+        "defaultAnim": "idle",
+        "expressions": [
+          "normal",
+          "happy"
+        ],
+        "anims": [
+          "idle",
+          "walk",
+          "talk"
+        ]
+      },
+      "vfxConfig": null,
+      "fallbackModule": "./assets/chapter5/characters/ch5_characters.js"
+    },
+    {
+      "id": "ch5_npc_student_m_01",
+      "name": "NPC Siswa Panitia Aula #1",
+      "fileName": "ch5_npc_student_m_01.glb",
+      "path": "./assets/chapter5/characters/ch5_npc_student_m_01.glb",
+      "category": "Characters",
+      "format": ".glb",
+      "status": "PENDING",
+      "scenes": [
+        "scene2",
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 0.48,
+        "h": 1.73,
+        "d": 0.34
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2K Shared Atlas (2048)",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Variasi NPC non-dominan, budget rendah (12k tris) untuk performa Android",
+      "charConfig": {
+        "who": "npc_m1",
+        "height": 1.73,
+        "defaultExpr": "normal",
+        "defaultAnim": "idle",
+        "expressions": [
+          "normal",
+          "happy"
+        ],
+        "anims": [
+          "idle",
+          "walk",
+          "talk"
+        ]
+      },
+      "vfxConfig": null,
+      "fallbackModule": "./assets/chapter5/characters/ch5_characters.js"
+    },
+    {
+      "id": "ch5_npc_student_m_02",
+      "name": "NPC Siswa Tambahan #2",
+      "fileName": "ch5_npc_student_m_02.glb",
+      "path": "./assets/chapter5/characters/ch5_npc_student_m_02.glb",
+      "category": "Characters",
+      "format": ".glb",
+      "status": "PENDING",
+      "scenes": [
+        "scene2",
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 0.48,
+        "h": 1.75,
+        "d": 0.34
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2K Shared Atlas (2048)",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Variasi NPC non-dominan, budget rendah (12k tris) untuk performa Android",
+      "charConfig": {
+        "who": "npc_m2",
+        "height": 1.75,
+        "defaultExpr": "normal",
+        "defaultAnim": "idle",
+        "expressions": [
+          "normal",
+          "happy"
+        ],
+        "anims": [
+          "idle",
+          "walk",
+          "talk"
+        ]
+      },
+      "vfxConfig": null,
+      "fallbackModule": "./assets/chapter5/characters/ch5_characters.js"
+    },
+    {
+      "id": "ch5_env_apartment_corridor",
+      "name": "Koridor Apartemen (Unit 302 & Unit 301)",
+      "fileName": "ch5_env_apartment_corridor.glb",
+      "path": "./assets/chapter5/environments/ch5_env_apartment_corridor.glb",
+      "category": "Environments",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene1"
+      ],
+      "dimensions": {
+        "w": 5.2,
+        "h": 3.4,
+        "d": 10
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Kontinuitas ketat scene1_corridor.js Ch 2–4: plester #E3D8CA, pintu 302 (#4A3931) & 301 (#384354), plat kuningan",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_env_apartment_courtyard_morning",
+      "name": "Halaman Apartemen Pagi Hari",
+      "fileName": "ch5_env_apartment_courtyard_morning.glb",
+      "path": "./assets/chapter5/environments/ch5_env_apartment_courtyard_morning.glb",
+      "category": "Environments",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene1"
+      ],
+      "dimensions": {
+        "w": 12,
+        "h": 4.5,
+        "d": 10
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Eksterior langsung pintu keluar lobi apartemen Unit 301–302",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_env_school_corridor",
+      "name": "Koridor Sekolah (Modular Bay)",
+      "fileName": "ch5_env_school_corridor.glb",
+      "path": "./assets/chapter5/environments/ch5_env_school_corridor.glb",
+      "category": "Environments",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene2"
+      ],
+      "dimensions": {
+        "w": 10,
+        "h": 3.4,
+        "d": 4
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Peningkatan detail dari scene2_4_corridor.js Ch 4",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_env_school_locker_area",
+      "name": "Area Loker Sekolah",
+      "fileName": "ch5_env_school_locker_area.glb",
+      "path": "./assets/chapter5/environments/ch5_env_school_locker_area.glb",
+      "category": "Environments",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene2"
+      ],
+      "dimensions": {
+        "w": 8,
+        "h": 3.4,
+        "d": 4.6
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Area baru Ch 5 terhubung langsung ke koridor & pintu masuk sekolah",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_env_school_aula",
+      "name": "Aula Sekolah (Persiapan Acara)",
+      "fileName": "ch5_env_school_aula.glb",
+      "path": "./assets/chapter5/environments/ch5_env_school_aula.glb",
+      "category": "Environments",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 14,
+        "h": 5.2,
+        "d": 12
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2048x2048–4096 Atlas",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Hero Environment baru Chapter 5 Scene 3",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_env_event_prep_room",
+      "name": "Ruang Persiapan Acara (Backstage)",
+      "fileName": "ch5_env_event_prep_room.glb",
+      "path": "./assets/chapter5/environments/ch5_env_event_prep_room.glb",
+      "category": "Environments",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene2",
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 6.4,
+        "h": 3.2,
+        "d": 5.4
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Terhubung langsung ke sisi samping panggung Aula Sekolah",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_env_empty_classroom",
+      "name": "Ruang Kelas Kosong (Sore Tenang)",
+      "fileName": "ch5_env_empty_classroom.glb",
+      "path": "./assets/chapter5/environments/ch5_env_empty_classroom.glb",
+      "category": "Environments",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene4"
+      ],
+      "dimensions": {
+        "w": 9,
+        "h": 3.4,
+        "d": 7.4
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Peningkatan material dari scene3_classroom.js Ch 4",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_env_school_courtyard_evening",
+      "name": "Halaman Sekolah Menjelang Malam",
+      "fileName": "ch5_env_school_courtyard_evening.glb",
+      "path": "./assets/chapter5/environments/ch5_env_school_courtyard_evening.glb",
+      "category": "Environments",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 16,
+        "h": 6,
+        "d": 12
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Kontinuitas gerbang & bangku halaman Ch 1–4 dalam suasana senja-malam",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_env_walk_home_street",
+      "name": "Jalan Pulang Senja & Lampu Jalan",
+      "fileName": "ch5_env_walk_home_street.glb",
+      "path": "./assets/chapter5/environments/ch5_env_walk_home_street.glb",
+      "category": "Environments",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 18,
+        "h": 5.5,
+        "d": 9
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Setting penutup hangat Chapter 5 menuju Chapter 6",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_school_bag",
+      "name": "Tas Sekolah (Rizka / Siswa)",
+      "fileName": "ch5_prop_school_bag.glb",
+      "path": "./assets/chapter5/props/ch5_prop_school_bag.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene1",
+        "scene2",
+        "scene4",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 0.4,
+        "h": 0.32,
+        "d": 0.16
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_notebook",
+      "name": "Buku Catatan",
+      "fileName": "ch5_prop_notebook.glb",
+      "path": "./assets/chapter5/props/ch5_prop_notebook.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene1",
+        "scene2",
+        "scene4"
+      ],
+      "dimensions": {
+        "w": 0.18,
+        "h": 0.03,
+        "d": 0.25
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_smartphone",
+      "name": "Ponsel (Dengan Layar UI Dinamis)",
+      "fileName": "ch5_prop_smartphone.glb",
+      "path": "./assets/chapter5/props/ch5_prop_smartphone.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene1",
+        "scene4",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 0.08,
+        "h": 0.16,
+        "d": 0.012
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_school_locker",
+      "name": "Loker Sekolah (Unit Mandiri)",
+      "fileName": "ch5_prop_school_locker.glb",
+      "path": "./assets/chapter5/props/ch5_prop_school_locker.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene2"
+      ],
+      "dimensions": {
+        "w": 0.95,
+        "h": 1.8,
+        "d": 0.48
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_event_poster",
+      "name": "Poster Acara Sekolah",
+      "fileName": "ch5_prop_event_poster.glb",
+      "path": "./assets/chapter5/props/ch5_prop_event_poster.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene2",
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 0.65,
+        "h": 0.9,
+        "d": 0.02
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_bulletin_board",
+      "name": "Papan Pengumuman",
+      "fileName": "ch5_prop_bulletin_board.glb",
+      "path": "./assets/chapter5/props/ch5_prop_bulletin_board.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene2"
+      ],
+      "dimensions": {
+        "w": 1.8,
+        "h": 1.15,
+        "d": 0.09
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_supply_box",
+      "name": "Kotak Perlengkapan Acara",
+      "fileName": "ch5_prop_supply_box.glb",
+      "path": "./assets/chapter5/props/ch5_prop_supply_box.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene2",
+        "scene3",
+        "scene4"
+      ],
+      "dimensions": {
+        "w": 0.46,
+        "h": 0.3,
+        "d": 0.34
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_scissors",
+      "name": "Gunting Kerajinan",
+      "fileName": "ch5_prop_scissors.glb",
+      "path": "./assets/chapter5/props/ch5_prop_scissors.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene2",
+        "scene3",
+        "scene4"
+      ],
+      "dimensions": {
+        "w": 0.09,
+        "h": 0.02,
+        "d": 0.19
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_tape_roll",
+      "name": "Selotip & Dispenser",
+      "fileName": "ch5_prop_tape_roll.glb",
+      "path": "./assets/chapter5/props/ch5_prop_tape_roll.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene2",
+        "scene3",
+        "scene4"
+      ],
+      "dimensions": {
+        "w": 0.14,
+        "h": 0.09,
+        "d": 0.06
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_marker_set",
+      "name": "Set Spidol Warna",
+      "fileName": "ch5_prop_marker_set.glb",
+      "path": "./assets/chapter5/props/ch5_prop_marker_set.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene2",
+        "scene3",
+        "scene4"
+      ],
+      "dimensions": {
+        "w": 0.18,
+        "h": 0.15,
+        "d": 0.04
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_decor_paper",
+      "name": "Kertas Dekorasi (Origami & Karton)",
+      "fileName": "ch5_prop_decor_paper.glb",
+      "path": "./assets/chapter5/props/ch5_prop_decor_paper.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene3",
+        "scene4"
+      ],
+      "dimensions": {
+        "w": 0.26,
+        "h": 0.04,
+        "d": 0.34
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_decor_ribbon",
+      "name": "Pita Dekorasi Gulung & Simpul",
+      "fileName": "ch5_prop_decor_ribbon.glb",
+      "path": "./assets/chapter5/props/ch5_prop_decor_ribbon.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 0.24,
+        "h": 0.16,
+        "d": 0.14
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_decor_cloth",
+      "name": "Kain Dekorasi (Taplak & Drapery)",
+      "fileName": "ch5_prop_decor_cloth.glb",
+      "path": "./assets/chapter5/props/ch5_prop_decor_cloth.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 1.2,
+        "h": 0.78,
+        "d": 0.72
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_aula_table_chair",
+      "name": "Meja dan Kursi Aula",
+      "fileName": "ch5_prop_aula_table_chair.glb",
+      "path": "./assets/chapter5/props/ch5_prop_aula_table_chair.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 1.45,
+        "h": 0.82,
+        "d": 0.95
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": true,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_decor_string_lights",
+      "name": "Lampu Dekorasi Aula (String Lights)",
+      "fileName": "ch5_prop_decor_string_lights.glb",
+      "path": "./assets/chapter5/props/ch5_prop_decor_string_lights.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 3.6,
+        "h": 0.55,
+        "d": 0.12
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_cardboard_box",
+      "name": "Kardus Perlengkapan",
+      "fileName": "ch5_prop_cardboard_box.glb",
+      "path": "./assets/chapter5/props/ch5_prop_cardboard_box.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene2",
+        "scene3",
+        "scene4"
+      ],
+      "dimensions": {
+        "w": 0.48,
+        "h": 0.36,
+        "d": 0.38
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": true,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_bottled_drink",
+      "name": "Minuman Kemasan (Teh / Susu)",
+      "fileName": "ch5_prop_bottled_drink.glb",
+      "path": "./assets/chapter5/props/ch5_prop_bottled_drink.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene4",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 0.07,
+        "h": 0.22,
+        "d": 0.07
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_courtyard_bench",
+      "name": "Bangku Halaman Sekolah",
+      "fileName": "ch5_prop_courtyard_bench.glb",
+      "path": "./assets/chapter5/props/ch5_prop_courtyard_bench.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene2",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 2.2,
+        "h": 0.88,
+        "d": 0.68
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": true,
+      "continuityNote": "Upgrade PBR dari bangku halaman Ch 1–4",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_street_lamp",
+      "name": "Lampu Jalan Senja/Malam",
+      "fileName": "ch5_prop_street_lamp.glb",
+      "path": "./assets/chapter5/props/ch5_prop_street_lamp.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 0.75,
+        "h": 4.2,
+        "d": 0.45
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": true,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_prop_decor_blueprint_clipboard",
+      "name": "Papan Rancangan Dekorasi (Scene 3)",
+      "fileName": "ch5_prop_decor_blueprint_clipboard.glb",
+      "path": "./assets/chapter5/props/ch5_prop_decor_blueprint_clipboard.glb",
+      "category": "Props",
+      "format": ".glb",
+      "status": "READY",
+      "scenes": [
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 0.26,
+        "h": 0.03,
+        "d": 0.36
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "1024x1024 – 2048x2048 PBR",
+      "pbrMaps": [
+        "BaseColor",
+        "Normal",
+        "Roughness",
+        "AO"
+      ],
+      "lodSpec": "LOD0 / LOD1",
+      "instancing": false,
+      "continuityNote": "Properti interaktif Chapter 5",
+      "charConfig": null,
+      "vfxConfig": null
+    },
+    {
+      "id": "ch5_vfx_morning_sunlight",
+      "name": "Cahaya Matahari Pagi",
+      "fileName": "ch5_vfx_morning_sunlight.json",
+      "path": "./assets/chapter5/effects/ch5_vfx_morning_sunlight.json",
+      "category": "Environmental_Details",
+      "format": ".json",
+      "status": "READY",
+      "scenes": [
+        "scene1"
+      ],
+      "dimensions": {
+        "w": 6,
+        "h": 3.5,
+        "d": 6
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Shader / Three.js Config",
+      "pbrMaps": [
+        "JSON Preset",
+        "Live 3D Preview"
+      ],
+      "lodSpec": "Quality-Tier Scaled (Low–Ultra)",
+      "instancing": true,
+      "continuityNote": "Kompatibel dengan ch4_shaders_anim.js",
+      "charConfig": null,
+      "vfxConfig": {
+        "lightPreset": "scene1_morning",
+        "directionalColor": "#ffe2b8",
+        "intensity": 1.35,
+        "elevationDeg": 24,
+        "hemiSky": "#d8ebff",
+        "hemiGround": "#7a6656",
+        "fogColor": "#cfd8e3",
+        "fogDensity": 0.012
+      }
+    },
+    {
+      "id": "ch5_vfx_afternoon_sunlight",
+      "name": "Cahaya Matahari Sore",
+      "fileName": "ch5_vfx_afternoon_sunlight.json",
+      "path": "./assets/chapter5/effects/ch5_vfx_afternoon_sunlight.json",
+      "category": "Environmental_Details",
+      "format": ".json",
+      "status": "READY",
+      "scenes": [
+        "scene4",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 6,
+        "h": 3.5,
+        "d": 6
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Shader / Three.js Config",
+      "pbrMaps": [
+        "JSON Preset",
+        "Live 3D Preview"
+      ],
+      "lodSpec": "Quality-Tier Scaled (Low–Ultra)",
+      "instancing": true,
+      "continuityNote": "Kompatibel dengan ch4_shaders_anim.js",
+      "charConfig": null,
+      "vfxConfig": {
+        "lightPreset": "scene4_quiet",
+        "directionalColor": "#ffb878",
+        "intensity": 1.4,
+        "elevationDeg": 14,
+        "hemiSky": "#f8d3b0",
+        "hemiGround": "#4b3935",
+        "fogColor": "#3a2c38",
+        "fogDensity": 0.015
+      }
+    },
+    {
+      "id": "ch5_vfx_aula_lighting",
+      "name": "Lampu Aula & Panggung",
+      "fileName": "ch5_vfx_aula_lighting.json",
+      "path": "./assets/chapter5/effects/ch5_vfx_aula_lighting.json",
+      "category": "Environmental_Details",
+      "format": ".json",
+      "status": "READY",
+      "scenes": [
+        "scene3"
+      ],
+      "dimensions": {
+        "w": 6,
+        "h": 3.5,
+        "d": 6
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Shader / Three.js Config",
+      "pbrMaps": [
+        "JSON Preset",
+        "Live 3D Preview"
+      ],
+      "lodSpec": "Quality-Tier Scaled (Low–Ultra)",
+      "instancing": true,
+      "continuityNote": "Kompatibel dengan ch4_shaders_anim.js",
+      "charConfig": null,
+      "vfxConfig": {
+        "lightPreset": "scene3_aula",
+        "overheadColor": "#fff1d6",
+        "stageSpotColor": "#ffd28a",
+        "stringLightsEmissive": "#ffcf75",
+        "bloomStrength": 0.28
+      }
+    },
+    {
+      "id": "ch5_vfx_window_light_rays",
+      "name": "Cahaya dari Jendela (Volumetric Rays)",
+      "fileName": "ch5_vfx_window_light_rays.json",
+      "path": "./assets/chapter5/effects/ch5_vfx_window_light_rays.json",
+      "category": "Environmental_Details",
+      "format": ".json",
+      "status": "READY",
+      "scenes": [
+        "scene1",
+        "scene2",
+        "scene4"
+      ],
+      "dimensions": {
+        "w": 6,
+        "h": 3.5,
+        "d": 6
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Shader / Three.js Config",
+      "pbrMaps": [
+        "JSON Preset",
+        "Live 3D Preview"
+      ],
+      "lodSpec": "Quality-Tier Scaled (Low–Ultra)",
+      "instancing": true,
+      "continuityNote": "Kompatibel dengan ch4_shaders_anim.js",
+      "charConfig": null,
+      "vfxConfig": {
+        "lightPreset": "scene4_quiet",
+        "shaderType": "AdditiveGradientBeam",
+        "color": "#ffe7bd",
+        "opacity": 0.18,
+        "tiltRad": -0.62,
+        "mobileFallback": "SingleQuad"
+      }
+    },
+    {
+      "id": "ch5_vfx_fine_dust_particles",
+      "name": "Partikel Debu Halus",
+      "fileName": "ch5_vfx_fine_dust_particles.json",
+      "path": "./assets/chapter5/effects/ch5_vfx_fine_dust_particles.json",
+      "category": "Environmental_Details",
+      "format": ".json",
+      "status": "READY",
+      "scenes": [
+        "scene3",
+        "scene4"
+      ],
+      "dimensions": {
+        "w": 6,
+        "h": 3.5,
+        "d": 6
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Shader / Three.js Config",
+      "pbrMaps": [
+        "JSON Preset",
+        "Live 3D Preview"
+      ],
+      "lodSpec": "Quality-Tier Scaled (Low–Ultra)",
+      "instancing": true,
+      "continuityNote": "Kompatibel dengan ch4_shaders_anim.js",
+      "charConfig": null,
+      "vfxConfig": {
+        "lightPreset": "scene4_quiet",
+        "particleSystem": "THREE.Points",
+        "countDesktop": 220,
+        "countAndroid": 80,
+        "color": "#fff3d6",
+        "driftSpeed": 0.14,
+        "size": 0.035
+      }
+    },
+    {
+      "id": "ch5_vfx_tree_shadows",
+      "name": "Bayangan Pepohonan (Gobo Cookie)",
+      "fileName": "ch5_vfx_tree_shadows.json",
+      "path": "./assets/chapter5/effects/ch5_vfx_tree_shadows.json",
+      "category": "Environmental_Details",
+      "format": ".json",
+      "status": "READY",
+      "scenes": [
+        "scene1",
+        "scene2",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 6,
+        "h": 3.5,
+        "d": 6
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Shader / Three.js Config",
+      "pbrMaps": [
+        "JSON Preset",
+        "Live 3D Preview"
+      ],
+      "lodSpec": "Quality-Tier Scaled (Low–Ultra)",
+      "instancing": true,
+      "continuityNote": "Kompatibel dengan ch4_shaders_anim.js",
+      "charConfig": null,
+      "vfxConfig": {
+        "lightPreset": "scene2_daylight",
+        "shadowType": "PCFSoftShadowMap",
+        "mapSizeDesktop": 2048,
+        "mapSizeAndroid": 1024,
+        "leafSwayFreq": 1.4
+      }
+    },
+    {
+      "id": "ch5_vfx_gentle_wind",
+      "name": "Efek Angin Ringan (Vertex Sway)",
+      "fileName": "ch5_vfx_gentle_wind.json",
+      "path": "./assets/chapter5/effects/ch5_vfx_gentle_wind.json",
+      "category": "Environmental_Details",
+      "format": ".json",
+      "status": "READY",
+      "scenes": [
+        "scene1",
+        "scene4",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 6,
+        "h": 3.5,
+        "d": 6
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Shader / Three.js Config",
+      "pbrMaps": [
+        "JSON Preset",
+        "Live 3D Preview"
+      ],
+      "lodSpec": "Quality-Tier Scaled (Low–Ultra)",
+      "instancing": true,
+      "continuityNote": "Kompatibel dengan ch4_shaders_anim.js",
+      "charConfig": null,
+      "vfxConfig": {
+        "lightPreset": "scene4_quiet",
+        "windDir": [
+          0.85,
+          0,
+          0.35
+        ],
+        "amplitude": 0.045,
+        "frequency": 1.8,
+        "targets": [
+          "Curtain",
+          "Ribbon",
+          "HairBack"
+        ]
+      }
+    },
+    {
+      "id": "ch5_vfx_moving_leaves",
+      "name": "Daun yang Bergerak / Gugur",
+      "fileName": "ch5_vfx_moving_leaves.json",
+      "path": "./assets/chapter5/effects/ch5_vfx_moving_leaves.json",
+      "category": "Environmental_Details",
+      "format": ".json",
+      "status": "READY",
+      "scenes": [
+        "scene2",
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 6,
+        "h": 3.5,
+        "d": 6
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Shader / Three.js Config",
+      "pbrMaps": [
+        "JSON Preset",
+        "Live 3D Preview"
+      ],
+      "lodSpec": "Quality-Tier Scaled (Low–Ultra)",
+      "instancing": true,
+      "continuityNote": "Kompatibel dengan ch4_shaders_anim.js",
+      "charConfig": null,
+      "vfxConfig": {
+        "lightPreset": "scene5_evening",
+        "instancedCountDesktop": 48,
+        "instancedCountAndroid": 18,
+        "palette": [
+          "#6da365",
+          "#d98c5f",
+          "#e8b86d"
+        ],
+        "fallSpeed": 0.55
+      }
+    },
+    {
+      "id": "ch5_vfx_night_ambient_lights",
+      "name": "Lampu Lingkungan Malam & Jalan",
+      "fileName": "ch5_vfx_night_ambient_lights.json",
+      "path": "./assets/chapter5/effects/ch5_vfx_night_ambient_lights.json",
+      "category": "Environmental_Details",
+      "format": ".json",
+      "status": "READY",
+      "scenes": [
+        "scene5"
+      ],
+      "dimensions": {
+        "w": 6,
+        "h": 3.5,
+        "d": 6
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Shader / Three.js Config",
+      "pbrMaps": [
+        "JSON Preset",
+        "Live 3D Preview"
+      ],
+      "lodSpec": "Quality-Tier Scaled (Low–Ultra)",
+      "instancing": true,
+      "continuityNote": "Kompatibel dengan ch4_shaders_anim.js",
+      "charConfig": null,
+      "vfxConfig": {
+        "lightPreset": "scene5_evening",
+        "skyZenith": "#0c1428",
+        "skyHorizon": "#2e2942",
+        "streetLampColor": "#ffcf7d",
+        "lampDistance": 12,
+        "windowGlow": "#ffe0a3"
+      }
+    },
+    {
+      "id": "ch5_vfx_glass_reflection",
+      "name": "Efek Refleksi Kaca PBR",
+      "fileName": "ch5_vfx_glass_reflection.json",
+      "path": "./assets/chapter5/effects/ch5_vfx_glass_reflection.json",
+      "category": "Environmental_Details",
+      "format": ".json",
+      "status": "READY",
+      "scenes": [
+        "scene1",
+        "scene2",
+        "scene4"
+      ],
+      "dimensions": {
+        "w": 6,
+        "h": 3.5,
+        "d": 6
+      },
+      "origin": "Bottom-Center (0, 0, 0) | Forward +Z",
+      "texRes": "Shader / Three.js Config",
+      "pbrMaps": [
+        "JSON Preset",
+        "Live 3D Preview"
+      ],
+      "lodSpec": "Quality-Tier Scaled (Low–Ultra)",
+      "instancing": true,
+      "continuityNote": "Kompatibel dengan ch4_shaders_anim.js",
+      "charConfig": null,
+      "vfxConfig": {
+        "lightPreset": "scene2_daylight",
+        "roughness": 0.08,
+        "metalness": 0.25,
+        "opacity": 0.34,
+        "envMapIntensity": 1.15,
+        "fresnelTint": "#cbe3fa"
+      }
+    }
+  ]
+}

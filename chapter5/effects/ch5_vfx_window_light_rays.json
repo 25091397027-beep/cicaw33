@@ -1,0 +1,20 @@
+{
+  "id": "ch5_vfx_window_light_rays",
+  "name": "Cahaya dari Jendela (Volumetric Rays)",
+  "category": "Environmental_Details",
+  "scenes": [
+    "scene1",
+    "scene2",
+    "scene4"
+  ],
+  "status": "READY",
+  "compatibility": "Three.js r128 + ch4_shaders_anim.js",
+  "config": {
+    "lightPreset": "scene4_quiet",
+    "shaderType": "AdditiveGradientBeam",
+    "color": "#ffe7bd",
+    "opacity": 0.18,
+    "tiltRad": -0.62,
+    "mobileFallback": "SingleQuad"
+  }
+}
