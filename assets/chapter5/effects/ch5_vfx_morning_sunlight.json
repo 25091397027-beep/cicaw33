@@ -1,0 +1,20 @@
+{
+  "id": "ch5_vfx_morning_sunlight",
+  "name": "Cahaya Matahari Pagi",
+  "category": "Environmental_Details",
+  "scenes": [
+    "scene1"
+  ],
+  "status": "READY",
+  "compatibility": "Three.js r128 + ch4_shaders_anim.js",
+  "config": {
+    "lightPreset": "scene1_morning",
+    "directionalColor": "#ffe2b8",
+    "intensity": 1.35,
+    "elevationDeg": 24,
+    "hemiSky": "#d8ebff",
+    "hemiGround": "#7a6656",
+    "fogColor": "#cfd8e3",
+    "fogDensity": 0.012
+  }
+}
