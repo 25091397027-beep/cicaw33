@@ -1,0 +1,19 @@
+{
+  "id": "ch5_vfx_tree_shadows",
+  "name": "Bayangan Pepohonan (Gobo Cookie)",
+  "category": "Environmental_Details",
+  "scenes": [
+    "scene1",
+    "scene2",
+    "scene5"
+  ],
+  "status": "READY",
+  "compatibility": "Three.js r128 + ch4_shaders_anim.js",
+  "config": {
+    "lightPreset": "scene2_daylight",
+    "shadowType": "PCFSoftShadowMap",
+    "mapSizeDesktop": 2048,
+    "mapSizeAndroid": 1024,
+    "leafSwayFreq": 1.4
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ch5_vfx_night_ambient_lights",
+  "name": "Lampu Lingkungan Malam & Jalan",
+  "category": "Environmental_Details",
+  "scenes": [
+    "scene5"
+  ],
+  "status": "READY",
+  "compatibility": "Three.js r128 + ch4_shaders_anim.js",
+  "config": {
+    "lightPreset": "scene5_evening",
+    "skyZenith": "#0c1428",
+    "skyHorizon": "#2e2942",
+    "streetLampColor": "#ffcf7d",
+    "lampDistance": 12,
+    "windowGlow": "#ffe0a3"
+  }
+}
